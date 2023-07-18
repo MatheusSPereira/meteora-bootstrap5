@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --gray: #CCCCCC;
+    --neon-green: #DAFF01;
+    --lilac: #9353FF;
+}
+
+.fs-6 {
+    font-size: 0.8125rem !important;
+}
+
+.facilities {
+    width: 325px;
+}
+
+.neon-green {
+    color: var(--neon-green);
+}
+
+.lilac-button {
+    background-color: var(--lilac);
+}
+
+@media(min-width: 768px) {
+
+    .news {
+        width: 696px;
+    }
+
+}
